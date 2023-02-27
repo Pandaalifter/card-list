@@ -20,7 +20,8 @@
   "dependencies": {
     "@lrnwebcomponents/meme-maker": "^4.1.0",
     "lit": "^2.0.2",
-    "professor-card-2": "^0.0.1"
+    "professor-card": "^0.0.0",
+    "professor-card2": "^0.0.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",

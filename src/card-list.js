@@ -1,5 +1,7 @@
 import { LitElement, html, css } from 'lit';
-import "professor-card-2/src/professor-card.js";
+import "@lrnwebcomponents/meme-maker";
+import "professor-card/src/professor-card.js";
+import "professor-card2/src/professor-card2";
 
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -10,17 +12,7 @@ class CardList extends LitElement {
 
   static styles = css`
     :host {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      font-size: calc(10px + 2vmin);
-      color: #1a2b42;
-      max-width: 960px;
-      margin: 0 auto;
-      text-align: center;
-      background-color: var(--card-list-background-color);
+      display: inline-block;
     }
 
     main {
@@ -58,18 +50,63 @@ class CardList extends LitElement {
 
   render() {
     return html`
+      <professor-card2>
+        <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
+      </professor-card2>
+      <professor-card>
+        <ul>
+          <li>Age: Unknowable</li>
+          <li>Positions: God</li>
+          <li>Years of Service: Infinite</li>
+          <li>COMPLETELY COMPLETE</li>
+        </ul>
+      </professor-card>
+      <professor-card2>
+        <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
+      </professor-card2>
+
+      <professor-card2>
+        <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
+      </professor-card2>
+      <professor-card>
+        <ul>
+          <li>Age: Unknowable</li>
+          <li>Positions: God</li>
+          <li>Years of Service: Infinite</li>
+          <li>COMPLETELY COMPLETE</li>
+        </ul>
+      </professor-card>
+      <professor-card2>
+        <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
+      </professor-card2>
       
-        <professor-card-2 
-        title = "Chad"
-        subtitle = "Chad of Cyber IST"
-        chadLabel = "Details"
-        top = "Giacobe"
-        bottom = "Overlaid"
-        pic = "https://cdn.discordapp.com/attachments/703281782111338586/1076698279712137346/unknown.png"
-        changeBackground = false
-        toggleOpening = false
-        ></professor-card-2>
-      
+      <professor-card>
+        <ul>
+          <li>Age: Unknowable</li>
+          <li>Positions: God</li>
+          <li>Years of Service: Infinite</li>
+          <li>COMPLETELY COMPLETE</li>
+        </ul>
+      </professor-card>
+      <professor-card2>
+        <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
+      </professor-card2>
+      <professor-card>
+        <ul>
+          <li>Age: Unknowable</li>
+          <li>Positions: God</li>
+          <li>Years of Service: Infinite</li>
+          <li>COMPLETELY COMPLETE</li>
+        </ul>
+      </professor-card>
+      <professor-card>
+        <ul>
+          <li>Age: Unknowable</li>
+          <li>Positions: God</li>
+          <li>Years of Service: Infinite</li>
+          <li>COMPLETELY COMPLETE</li>
+        </ul>
+      </professor-card>
     `;
   }
 }
