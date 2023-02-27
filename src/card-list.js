@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'lit';
+import "professor-card-2/src/professor-card.js";
 
 const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
 
@@ -57,30 +58,18 @@ class CardList extends LitElement {
 
   render() {
     return html`
-      <main>
-        <div class="logo"><img alt="open-wc logo" src=${logo} /></div>
-        <h1>${this.header}</h1>
-
-        <p>Edit <code>src/CardList.js</code> and save to reload.</p>
-        <a
-          class="app-link"
-          href="https://open-wc.org/guides/developing-components/code-examples/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code examples
-        </a>
-      </main>
-
-      <p class="app-footer">
-        🚽 Made with love by
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/open-wc"
-          >open-wc</a
-        >.
-      </p>
+      
+        <professor-card-2 
+        title = "Chad"
+        subtitle = "Chad of Cyber IST"
+        chadLabel = "Details"
+        top = "Giacobe"
+        bottom = "Overlaid"
+        pic = "https://cdn.discordapp.com/attachments/703281782111338586/1076698279712137346/unknown.png"
+        changeBackground = false
+        toggleOpening = false
+        ></professor-card-2>
+      
     `;
   }
 }
