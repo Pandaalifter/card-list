@@ -53,29 +53,15 @@ class CardList extends LitElement {
       <professor-card2>
         <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
       </professor-card2>
-      <professor-card>
-        <ul>
-          <li>Age: Unknowable</li>
-          <li>Positions: God</li>
-          <li>Years of Service: Infinite</li>
-          <li>COMPLETELY COMPLETE</li>
-        </ul>
-      </professor-card>
       <professor-card2>
         <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
       </professor-card2>
-
       <professor-card2>
         <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
       </professor-card2>
-      <professor-card>
-        <ul>
-          <li>Age: Unknowable</li>
-          <li>Positions: God</li>
-          <li>Years of Service: Infinite</li>
-          <li>COMPLETELY COMPLETE</li>
-        </ul>
-      </professor-card>
+      <professor-card2>
+        <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
+      </professor-card2>
       <professor-card2>
         <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
       </professor-card2>
@@ -88,9 +74,22 @@ class CardList extends LitElement {
           <li>COMPLETELY COMPLETE</li>
         </ul>
       </professor-card>
-      <professor-card2>
-        <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
-      </professor-card2>
+      <professor-card>
+        <ul>
+          <li>Age: Unknowable</li>
+          <li>Positions: God</li>
+          <li>Years of Service: Infinite</li>
+          <li>COMPLETELY COMPLETE</li>
+        </ul>
+      </professor-card>
+      <professor-card>
+        <ul>
+          <li>Age: Unknowable</li>
+          <li>Positions: God</li>
+          <li>Years of Service: Infinite</li>
+          <li>COMPLETELY COMPLETE</li>
+        </ul>
+      </professor-card>
       <professor-card>
         <ul>
           <li>Age: Unknowable</li>
