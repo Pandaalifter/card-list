@@ -3,12 +3,8 @@ import "@lrnwebcomponents/meme-maker";
 import "professor-card/src/professor-card.js";
 import "professor-card2/src/professor-card2.js";
 
-const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
-
 class CardList extends LitElement {
-  static properties = {
-    header: { type: String },
-  }
+  static properties = {}
 
   static styles = css`
     :host {
@@ -22,7 +18,8 @@ class CardList extends LitElement {
 
   render() {
     return html`
-      <professor-card2>
+      <!--Winston's Cards-->
+      <professor-card2> <!--Default Card-->
         <p>Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
       </professor-card2>
       <professor-card2 
@@ -62,7 +59,8 @@ class CardList extends LitElement {
         <p>Cybesecuring the world one class at a time. RSA, SHA, TCP, UDP, SSH, HTTPS, other words</p>
       </professor-card2>
 
-      <professor-card
+      <!--Joe's Cards (Didn't put a default because both of our defaults are the same person-->
+      <professor-card 
         name="Professor Welch"
         position="Coder Broder of IST"
         detailLabel="Coding Info"
