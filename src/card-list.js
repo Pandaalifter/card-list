@@ -43,7 +43,7 @@ class CardList extends LitElement {
       <professor-card2
         title="Professor Sylvester"
         subtitle="Mathematical Chadical"
-        infoLabel="Calculate it"
+        infoLabel="Calculate"
         profilePic="https://ist.psu.edu/sites/default/files/directory/Sylvester-Kevin.jpg"
         top="Flannel"
         bottom="Friday">
