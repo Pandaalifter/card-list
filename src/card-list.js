@@ -87,7 +87,7 @@ class CardList extends LitElement {
       </professor-card>
       <professor-card
         name="Professor Fisher"
-        position="Doing cool new things"
+        position="Doer of Cool New Things"
         detailLabel="Java Info"
         picture="https://media.licdn.com/dms/image/C4E03AQHMegdZ2adIWA/profile-displayphoto-shrink_800_800/0/1643143092339?e=2147483647&v=beta&t=x_Jn02FxmbfExA33fC4yHmysjSsA371376wvocN5m3U"
         top="Amazon"
