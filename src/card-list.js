@@ -38,7 +38,7 @@ class CardList extends LitElement {
         profilePic="https://cdn.discordapp.com/attachments/434857360155213827/1082054956376408115/erwinpic.png"
         top="Fedora"
         bottom="Haver">
-        <p>Tired of freshman english. Funny jokes according to Joe (I had Professor Ganoe). ENGL 15 moment.</p>
+        <p>Tired of freshman english. Funny jokes according to Joe (I had a different professor). ENGL 15 moment.</p>
       </professor-card2>
       <professor-card2
         title="Professor Sylvester"
