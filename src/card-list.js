@@ -29,7 +29,7 @@ class CardList extends LitElement {
         profilePic="https://th.bing.com/th/id/OIP.IhtX03uyr__34k-UQ9KCKwHaHa?pid=ImgDet&rs=1"
         top="Ollendyke"
         bottom="Moment">
-        <p>He don't like React for a fact! He also doesn't like IDs. Or inline CSS modifier.</p>
+        <p>He don't like React for a fact! He also doesn't like IDs. Or inline CSS modifiers.</p>
       </professor-card2>
       <professor-card2
         title="Professor Erwin"
